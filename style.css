@@ -1,0 +1,76 @@
+body{
+  background: #222222;
+  margin: 0px;
+}
+
+.square{
+  width: 30%;
+  padding-bottom: 30%;
+  background-color: red;
+  margin: 1.6%;
+  float: left;
+  border-radius: 12px;
+  transition: background 1s;
+}
+
+.container{
+  max-width: 700px;
+}
+
+.container-fluid{
+  background-color: steelblue;
+  margin: 0px;
+  transition: 0.5s;
+}
+
+
+h1{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 100;
+  font-family:cursive;
+  color: white;
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 #titleDisplay{
+  font-size: 1.4em;
+}
+
+.mynav{
+  height: 30px;
+  background: white;
+  text-align: center;
+}
+.selected{
+  background-color: steelblue;
+  color: white;
+}
+
+button{
+  height: 100%;
+  background-color:inherit;
+  border: none;
+  color: steelblue;
+  font-weight: 700;
+  transition: 0.5s;
+}
+
+button:hover{
+  background-color: steelblue;
+  color: white;
+  transform: translate(10px, -5px);
+  transition: 0.2s;
+}
+
+#msg{
+  color: steelblue;
+  font-weight: 700;
+  transition: 0.5s;
+  margin-left: 5%;
+  margin-right: 5%;
+  transform: translate(20px, 0px);
+  transition: 1s;
+}
